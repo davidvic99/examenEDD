@@ -6,7 +6,7 @@
   </head>
   <body>
       <h2>LOGIN</h2>
-      <form  action="dashboard.php" method="post">
+      <form  action="resultado.php" method="post">
         Usuario<br>
         <input type="text" name="usuario" id="usuario" value=""><br>
         <br>Contraseña<br>
