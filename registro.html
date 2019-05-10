@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registro</title>
+  </head>
+  <body>
+    <body>
+      <h2>REGISTRO</h2>
+      <form action="registro.php" method="post">
+      <br><br>
+      <label for="nombre">Nombre:</label>
+      <br>
+      <input type="text" name="nombre" id="nombre">
+      <div id="hidden1" style="display:none;">No puede dejarse en blanco</div>
+      <br><br>
+      <label for="usuario">Usuario:</label>
+      <br>
+      <input type="text" name="usuario" id="usuario">
+      <div id="hidden2" style="display:none;">No puede dejarse en blanco</div>
+      <br><br>
+      <label for="email">Email:</label>
+      <br>
+      <input type="text" name="email" id="email">
+      <div id="hidden3" style="display:none;">No puede dejarse en blanco</div>
+      <br><br>
+      <label for="password">Password:</label>
+      <br>
+      <input type="text" name="password" id="password">
+      <div id="hidden4" style="display:none;">No puede dejarse en blanco</div>
+      <br><br>
+      <input type="submit" value="ENVIAR" onclick="return comprobar()">
+    </form>
+      <script type="text/javascript" src="comprobar.js"></script>
+    </body>
+  </body>
+</html>
