@@ -1,5 +1,6 @@
 <?php
 
+require_once('conexion.php');
 
 
 
@@ -16,7 +17,7 @@
 <body>
 
 <h2>Login</h2>
-<form class="" action="login.php" method="post">
+<form class="" action="resultado.php" method="post">
   <div class="grupoFormItem">
     <label for="usuario"></label>
       <span class="formLabel">Usuario </span>
@@ -27,6 +28,9 @@
       <span class="formLabel">Contraseña </span>
       <input type="text" name="contra" value="">
   </div>
-  
+  <input type="submit" name="" value="Iniciar">
+</form>
+
+
 </body>
 </html>
