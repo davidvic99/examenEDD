@@ -1,7 +1,7 @@
 # examenEDD
 
 Los integrantes del equipo:
-  -Arnau
+  -Arnau Morant
   -Roberto Viñes
   -Vicente
   -David Victoria
