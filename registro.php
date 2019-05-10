@@ -14,7 +14,9 @@ if(!empty($_POST['usuario'])&&(!empty($_POST['email']))&&(!empty($_POST['passwor
     
     mysqli_query($conn,"INSERT INTO `usuario` (`id`, `nombre`, `usuario`, `email`, `password`, `fechaRegistro`) VALUES (NULL, '$nombre', '$usuario', '$email', '$password', CURRENT_TIMESTAMP)");
 
+
+    echo "<h2>Usuario registrado correctamente</h2>";
 }else{
 
-    echo "Algun campo esta vacio";
+    echo "<h2>Algun campo esta vacio</h2>";
 }
