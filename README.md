@@ -1,7 +1,7 @@
 # examenEDD
-Nºequipo 1
+
 Los integrantes del equipo:
   -Arnau
-  -Roberto
+  -Roberto Viñes
   -Vicente
   -David Victoria
